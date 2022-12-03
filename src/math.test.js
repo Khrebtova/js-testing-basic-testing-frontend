@@ -52,7 +52,7 @@ test("should yield 0 if an emty array is provided", ()=>{
 })
 
 // -----error catching
-test("should thow an arror if no value is passed into the function", ()=>{
+test("should throw an error if no value is passed into the function", ()=>{
     // try{
     //     const result = add();
     // }catch(error){        
