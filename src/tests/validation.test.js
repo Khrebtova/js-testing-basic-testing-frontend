@@ -1,6 +1,6 @@
 import { it, expect, describe } from 'vitest';
 
-import { validateStringNotEmpty, validateNumber } from './util/validation';
+import { validateStringNotEmpty, validateNumber } from '../util/validation';
 
 describe('validateStringNotEmpty()', () => {
 
