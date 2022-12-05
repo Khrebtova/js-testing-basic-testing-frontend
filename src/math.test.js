@@ -65,7 +65,7 @@ test("should throw an error if no value is passed into the function", ()=>{
     expect(resultFun).toThrow(/is not iterable/)
 })
 
-test("should throw an error contained message `is not iterable` if provided with multiple arguments insted of an array", ()=>{
+test("should throw an error contained message `is not iterable` if provided with multiple arguments instead of an array", ()=>{
     const num1 = 1;
     const num2 = 2;
 
